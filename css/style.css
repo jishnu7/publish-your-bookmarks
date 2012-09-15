@@ -21,6 +21,10 @@ ul ul{
     margin: 0 0 0 2em;
 }
 
+ul a.heading {
+    display: block;
+}
+
 header{
     font-size:50px;
     display: inline;
@@ -28,6 +32,7 @@ header{
     color: #DDD;
     text-shadow: 0px 2px 3px #555;
     margin-left:5%;
+    
 }
 
 hr {
@@ -41,13 +46,16 @@ footer {
     float:right;
 }
 
-.bookmark-list a{
+a{
     color: #444;
+    border-bottom: none;
     text-decoration: none;
-    transition: all .3s ease-out;
+    outline: none; 
 }
 
-.bookmark-list a:hover{
-    background: #eee;
+a:hover{
+    text-decoration:underline;
 }
-
+a:visited {
+    outline: none;
+}

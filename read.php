@@ -12,13 +12,9 @@ function read($node, $data = '') {
         }
         if(isset($node->children)) {
             if ($node->title != NULL) {
-                $data .= ('<li><a href="#">' . $node->title. '</a></li>');
+                $data .= ('<a href="#" class="heading">' . $node->title. '</a>');
             }
-            if ($data == '') {
-                $data .= '<ul class="bookmark-list">';
-            } else {
-                $data .= '<ul>';
-            }
+            $data .= '<ul>';
             foreach($node->children as $key => $child) {
                     $data = read($child, $data );
             }

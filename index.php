@@ -23,5 +23,12 @@ $bookmark = json_decode($file);
             Generated with <a href="https://github.com/jishnu7/publish-your-bookmarks">Publish Your Bookmarks</a>.
         </footer>
         <a href="https://github.com/jishnu7/publish-your-bookmarks"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+        <script>
+            $(function() {
+            $( "ul" ).accordion({active: false,autoHeight: false,navigation: true, collapsible: true});
+            });
+        </script>
     </body>
 </html>
