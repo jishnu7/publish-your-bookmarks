@@ -7,5 +7,5 @@ $FILE_NAME = "bookmarks.json";
 $EXCLUDE = array("Bookmarks Menu", "Tags");
 
 # Show Favicon True/False
-$FAVICON = True;
+$FAVICON = False;
 
