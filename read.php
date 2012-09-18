@@ -41,7 +41,7 @@ function convert($title, $url, $favicon) {
             }
             $link .= '<a href="' . $url . '" target="_blank">' . $title . '</a></li>';
         }else{
-            $link = '<li><a href="#" style="color:#ccc">' . $title . '</a></li>';
+            $link = '<li><a href="#" class="disabled">' . $title . '</a></li>';
         }
         return $link;
 }

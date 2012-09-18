@@ -27,7 +27,7 @@ $bookmark = json_decode($file);
         <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
         <script>
             $(function() {
-            $( "ul" ).accordion({active: false,autoHeight: false,navigation: true, collapsible: true});
+            $( "ul" ).accordion({active: false,autoHeight: false,navigation: true, collapsible: true, header: '.heading'});
             });
         </script>
     </body>
